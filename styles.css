@@ -1,8 +1,11 @@
 /*  your css code here. If applicable */
+*{
+	background:rgb(161, 19, 222);
+}
 .btn {
-  margin: 5px;
+  margin: 9px;
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color:rgb(119, 16, 137);;
   color: white;
   border: none;
   cursor: pointer;
@@ -11,7 +14,7 @@
 .stop {
   margin: 5px;
   padding: 10px 20px;
-  background-color: #FF0000;
+  background-color: rgb(119, 16, 137);;
   color: white;
   border: none;
   cursor: pointer;
