@@ -2,7 +2,15 @@
 *{
 	background:rgb(161, 19, 222);
 }
+#buttons{
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 .btn {
+
   margin: 9px;
   padding: 10px 20px;
   background-color:rgb(119, 16, 137);;
