@@ -20,4 +20,13 @@
   border: none;
   cursor: pointer;
 }
+.stop{
+height:7%;
+	width:fit-content;
+  padding: 10px 17px;
+  background-color:#663399;
+  color: white;
+  border: none;
+  cursor: pointer;	
+}
 
