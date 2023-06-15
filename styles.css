@@ -1,29 +1,23 @@
 /*  your css code here. If applicable */
 *{
-	background:rgb(161, 19, 222);
+	background-color:#A164DF;
+	height:100vh;
+	width:100w;
 }
 #buttons{
 	height:100%;
 	width:100%;
 	display:flex;
-	justify-content:center;
+	justify-content:space-around;
 	align-items:center;
 }
 .btn {
-
-  margin: 9px;
-  padding: 10px 20px;
-  background-color:rgb(119, 16, 137);;
+	height:7%;
+	width:fit-content;
+  padding: 10px 17px;
+  background-color:#663399;
   color: white;
   border: none;
   cursor: pointer;
 }
 
-.stop {
-  margin: 5px;
-  padding: 10px 20px;
-  background-color: rgb(119, 16, 137);;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
