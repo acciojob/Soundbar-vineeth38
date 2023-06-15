@@ -7,14 +7,17 @@
 </head>
 
 <body>
-  <div id="buttons">
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+	<div id="buttons">
     <button class="btn" onclick="playAudio('applause')">applause</button>
     <button class="btn" onclick="playAudio('boo')">boo</button>
     <button class="btn" onclick="playAudio('gasp')">gasp</button>
 	   <button class="btn" onclick="playAudio('toda')">toda</button>
 	   <button class="btn" onclick="playAudio('victory')">victory</button>
 	   <button class="btn" onclick="playAudio('wrong')">wrong</button>
-    <button class="btn" onclick="stopAudio()">Stop</button>
+    <button class="stop" onclick="stopAudio()">Stop</button>
   </div>
 
 	<!-- the entire body must be written by student -->
