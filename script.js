@@ -12,25 +12,25 @@ buttons.forEach(button => {
   button.addEventListener('click', function() {
     const buttonInnerHTML = this.innerHTML;
     switch (buttonInnerHTML) {
-      case 'applause':
+		case 1 : 'applause':
         playSound('https://www.computerhope.com/jargon/m/example.mp3');
         break;
-      case 'boo':
+		case 2 : 'boo':
         playSound('https://www.computerhope.com/jargon/m/example.mp3');
         break;
-      case 'gasp':
+      case 3 :'gasp':
         playSound('https://www.computerhope.com/jargon/m/example.mp3');
         break;
-      case 'toda':
+      case 4 :'toda':
         playSound('https://www.computerhope.com/jargon/m/example.mp3');
         break;
-      case 'victory':
+      case 5 :'victory':
         playSound('https://www.computerhope.com/jargon/m/example.mp3');
         break;
-      case 'wrong':
+		case 6: 'wrong':
         playSound('https://www.computerhope.com/jargon/m/example.mp3');
         break;
-      case 'stop':
+		case 7: 'stop':
         pauseSound('https://www.computerhope.com/jargon/m/example.mp3');
         break;
       default:
